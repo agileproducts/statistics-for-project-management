@@ -1,6 +1,6 @@
 ---
 title: "Proportions and Percentages"
-bibliography: "bibliography.yaml"
+layout: default
 ---
 
 > A good metric is a ratio or a rate  - *Lean Analytics*, @item1
