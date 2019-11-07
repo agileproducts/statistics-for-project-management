@@ -1,6 +1,6 @@
 ---
 title: "Proportions and Percentages"
-layout: default
+layout: page
 ---
 
 > A good metric is a ratio or a rate  - *Lean Analytics*, Croll and Yosokwitz (2013)
