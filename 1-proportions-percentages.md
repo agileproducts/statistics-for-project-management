@@ -3,7 +3,7 @@ title: "Proportions and Percentages"
 layout: default
 ---
 
-> A good metric is a ratio or a rate  - *Lean Analytics*, @item1
+> A good metric is a ratio or a rate  - *Lean Analytics*, Croll and Yosokwitz (2013)
 
 Probably the simplest and most common type of product measurement is to count two things and divide one by the other, for example the number of people who see a webpage and the number of people who click a button on that page. The result is a proportion, and is often expressed as a percentage. 
 
@@ -29,7 +29,7 @@ Imagine sending out an email promotion each month to 10,000 people, and obtainin
 |Open rate|18.30%|17.78%|17.42%|
 |Click rate|7.23%|6.90%|6.52%|
 
-Quoting percentages to two decimal places as we have done here is very common practice. Some style guides suggest this (@item2), and it is the default setting for percentage formats in spreadsheets or in tools like Google Analytics. But consider how much precision is implied by knowing a ratio to the nearest 0.01%. That’s 0.0001, or one part in ten-thousand. 
+Quoting percentages to two decimal places as we have done here is very common practice. Some style guides suggest this (Cole (2015)), and it is the default setting for percentage formats in spreadsheets or in tools like Google Analytics. But consider how much precision is implied by knowing a ratio to the nearest 0.01%. That’s 0.0001, or one part in ten-thousand. 
 
 In our email example we have exactly 10,000 recipients, so quoting those response rates to two decimal places means reporting to a precision of one individual person. Do we really care if one person more or less opens the mail? Can we reasonably say anything about the relative performance of each mailer to that level of granularity?
 
@@ -62,3 +62,7 @@ In product measurements coming up with the numerator - the number on top of the 
 We obtain numbers in order to understand something. Sometimes it is easier to arrive at and communicate that understanding if we set decimals and percentages aside and think in terms of simple words and fractions. It is perhaps easier to think about ‘one user in 300’ clicking a link than it is ‘0.35%’. Saying out loud that ‘0.56’ is 56 out of every 100 may better convey the precision implied in that number. Saying that ‘about a sixth’ of visitors come from Facebook may be more descriptive than quoting an average between 15 and 20%. This is how scientists and engineers often work, calculating things to precision but then sanity-checking the results with a bit of ready reckoning. 
 
 ## References
+
+1. Cole, T J. 2015. “Too Many Digits: The Presentation of Numerical Data.” _Archives of Disease in Childhood_ 100:608–9.
+
+2. Croll, Alistair, and Benjamin Yosokwitz. 2013. _Lean Analytics_. Sebastapol, CA: O’Reilly Media.
