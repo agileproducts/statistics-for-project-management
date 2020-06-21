@@ -15,7 +15,9 @@ Proportion of visitors clicking the button = 100/1000 = 0.1
 As a percentage 0.1 x 100 = 10%
 ```
 
-This is elementary arithmetic. The common mistake to avoid is quoting the result to too much precision, using lots of decimal places which aren't justified or aren't informative. 
+Choosing with the numerator - the thing you are counting, the number on top of the fraction - is usually pretty easy.Choosing the right number to go on the bottom of the fraction - the denominator - can require more thought. Is it pageviews, visits, visitors, or unique visitors? All users, or just premium tier ones? Downloads, or installs? If it is difficult to figure out what the correct denominator is, or to measure it, then it may indicate a problem with the metric. 
+
+TThe common mistake to avoid is quoting the result to too much precision, using lots of decimal places which aren't justified or aren't informative. 
 
 ## Decimal places and significant figures
 
@@ -53,9 +55,6 @@ Relative difference = (Percentage B - Percentage A)/Percentage A
 
 Which is correct? Both are equally valid, depending on context and the point you are trying to communicate. For a freemium product a rise in conversions to a paid tier from 1% to 1.5% might represent stellar success, provided it doesn't mean three individuals converting rather than two. For a mailer it is probably overdramatic to report a 25% collapse in clickthroughs when it has fallen from 4% one month to 3% the next, but it might not be if that represents a million people. Alarmist newspapers notoriously misuse this concept, producing screaming headlines that say the murder rate in a city has doubled, when it has risen from two murders in a year to four. Personally I find it easier to think in absolute numbers, but if in doubt the safest thing to do is report both the percentage ratio and the numbers that produced it. 
 
-## Choosing a denominator
-
-In product measurements coming up with the numerator - the number on top of the fraction - is usually pretty easy. You just count something. Choosing the right number to go on the bottom of the fraction - the denominator - can require more thought. Is it pageviews, visits, visitors, or unique visitors? All users, or just premium tier ones? Downloads, or installs? If it is difficult to figure out what the correct denominator is, or to measure it, then it may indicate a problem with the metric. 
 
 ## Fractions in plain language
 
