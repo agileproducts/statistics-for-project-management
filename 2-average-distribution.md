@@ -6,14 +6,16 @@ layout: page
 Many key product metrics are averages - _average_ revenue per user, _average_ time on site, and so on. There are different kinds of average, but all seek to find a typical or representative value for a dataset. In order to understand how well an average does this it is also important to know how the datapoints are _distributed_. 
 
 
-## Mean and Median
+## Mean, Median and Mode
 
 The most familiar kind of average involves adding a set of numbers together and dividing the result by the size of the set. This is the **mean average** - in Excel or Google Sheets this is what the `AVERAGE` function does.
 
 For example imagine running an e-commerce product for which we want to track the average shopping cart size. In theory this is quite simple - add up the order value for each transaction in a given period and divide it by the number of transactions:
 
 ```{.math}
-Transactions: $5, $25, $8, $50, $32, $7, $5, $100, $9, $10, $18, $61, $5, $12, $7, $9, $14, $40, $6, $30
+Transactions: 
+$5, $25, $8, $50, $32, $7, $5, $100, $9, $10, 
+$18, $61, $5, $12, $7, $9, $14, $40, $6, $30
 
 Total = $453 
 
