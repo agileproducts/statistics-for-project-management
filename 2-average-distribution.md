@@ -1,5 +1,5 @@
 ---
-title: "Average and Distribution"
+title: "Averages"
 layout: page
 ---
 
@@ -8,7 +8,9 @@ Many key product metrics are averages - _average_ revenue per user, _average_ ti
 
 ## Mean and Median
 
-Imagine running an e-commerce product for which we want to track the average shopping cart size. In theory this is quite simple - add up the order value for each transaction in a given period and divide it by the number of transactions:
+The most familiar kind of average involves adding a set of numbers together and dividing the result by the size of the set. This is the **mean average** - in Excel or Google Sheets this is what the `AVERAGE` function does.
+
+For example imagine running an e-commerce product for which we want to track the average shopping cart size. In theory this is quite simple - add up the order value for each transaction in a given period and divide it by the number of transactions:
 
 ```{.math}
 Transactions: $5, $25, $8, $50, $32, $7, $5, $100, $9, $10, $18, $61, $5, $12, $7, $9, $14, $40, $6, $30
@@ -18,7 +20,7 @@ Total = $453
 Average cart size = $453/20 = $23
 ```
 
-This is a **mean average**, the most familiar kind. In Excel or Google Sheets this is what the `AVERAGE` function does. As a simple metric we could optimise the product around (and with a more realistic amount of data) this might work pretty well. However we can see that there are ten orders of ten dollars or less, seven between $10 and $50 and one jumbo order of $100. So it may be misleading to say that $23 represents a typical cart size. Alternatively, we might take the **median** value, which is obtained by lining all the datapoints up and taking the middle one (if an odd number of datapoints) or the average of the two middle ones (if an even number of datapoints)
+As a simple metric we could optimise the product around (and with a more realistic amount of data) this might work pretty well. However we can see that there are ten orders of ten dollars or less, seven between $10 and $50 and one jumbo order of $100. So it may be misleading to say that $23 represents a typical cart size. Alternatively, we might take the **median** value, which is obtained by lining all the datapoints up and taking the middle one (if an odd number of datapoints) or the average of the two middle ones (if an even number of datapoints)
 
 ```{.math}
 $5 $5 $5 $6 $7 $7 $8 $9 $9 [$10 $12] $14 $18 $25 $30 $32 $40 $52 $61 $100

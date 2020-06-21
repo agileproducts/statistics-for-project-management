@@ -15,7 +15,7 @@ Proportion of visitors clicking the button = 100/1000 = 0.1
 As a percentage 0.1 x 100 = 10%
 ```
 
-Choosing with the numerator - the thing you are counting, the number on top of the fraction - is usually pretty easy.Choosing the right number to go on the bottom of the fraction - the denominator - can require more thought. Is it pageviews, visits, visitors, or unique visitors? All users, or just premium tier ones? Downloads, or installs? If it is difficult to figure out what the correct denominator is, or to measure it, then it may indicate a problem with the metric. 
+Choosing with the numerator - the thing you are counting, the number on top of the fraction - is usually pretty easy. Choosing the right number to go on the bottom of the fraction - the denominator - can require more thought. Is it pageviews, visits, visitors, or unique visitors? All users, or just premium tier ones? Downloads, or installs? If it is difficult to figure out what the correct denominator is, or to measure it, then it may indicate a problem with the metric. 
 
 TThe common mistake to avoid is quoting the result to too much precision, using lots of decimal places which aren't justified or aren't informative. 
 
