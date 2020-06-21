@@ -39,7 +39,7 @@ When quoting and rounding numbers we must consider whether digits are **signific
 
 Were we to scale everything back by a factor of ten and send out 1000 emails with open counts of '72', '69' and '65' then we should not quote the CTR to the same precision - we’d be back in a situation where the random action of just a handful of individuals impacted the result. Here we would have to say the rate was a uniform 7%. At the other end of the spectrum if we sent out an email to one million people then it would be silly to quote the CTR to the nearest 0.0001%, as again these digits while significant would not be effective. Here the style-guide standby of two decimal places would probably suffice. 
 
-If the numbers are samples of a large population then the level of precision to which they can be quoted becomes a matter of statistics, for which see [chapter 3](../chapter-3/index.html). 
+If the numbers are samples of a larger population then the level of precision to which they can be quoted becomes a matter of statistics, for which see [chapter 3](../chapter-3/index.html). 
 
 ## Relative vs absolute difference
 
